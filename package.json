@@ -1,0 +1,25 @@
+{
+  "name": "selenium-typescript",
+  "version": "1.0.0",
+  "description": "Automation Testing with Selenium and Typescript",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/ts-mocha --recursive --timeout 30000 tests/**/*.test.ts"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@types/selenium-webdriver": "^4.0.3",
+    "chromedriver": "latest",
+    "selenium-webdriver": "latest",
+    "mocha": "^5.2.0"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "devDependencies": {
+    "@types/expect": "^24.3.0",
+    "@types/mocha": "^5.2.7",
+    "ts-mocha": "^8.0.0",
+    "typescript": "^3.9.9"
+  }
+}
